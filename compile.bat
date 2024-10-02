@@ -1,0 +1,1 @@
+python -m nuitka --assume-yes-for-downloads --follow-imports --standalone --python-flag=-OO --output-dir="./build" --include-data-file=./index.json=./index.json --onefile --output-filename="TerrorRadar.exe" ./main.py
