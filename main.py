@@ -55,7 +55,7 @@ def monitor_round_types(log_file):
     last_position = 0
     round_type = ""
     round_active = False
-    first_run = False
+    first_run = True
     dir_path = os.path.dirname(os.path.realpath(__file__))
     with open(dir_path + "/index.json") as json_file:
         data = json.load(json_file)
