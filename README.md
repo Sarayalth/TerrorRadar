@@ -1,0 +1,4 @@
+- git clone this mess
+- pip install -r requirements.txt
+- python main.py
+- have funs
